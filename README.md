@@ -34,6 +34,12 @@
 
   저장된 fake news 텍스트 임베딩을 시영히야 Fine-tuning된 모델을 fake news에 적용하는 코드.
 
+
+6. requirements.txt
+
+
+   본 실험에 사용된 환경
+
 ----------
 
 ## Model architecture

@@ -6,25 +6,25 @@
 
 ## Files descriptions
 
-1. embedding.ipynb:
-  사전학습 언어모델에 사용될 텍스트 임베딩을 생성하고 저장하는 코드.
-  텍스트 임베딩은 data/preprocessed_data에 저장됨.
+1. embedding.ipynb
+  *사전학습 언어모델에 사용될 텍스트 임베딩을 생성하고 저장하는 코드.
+  텍스트 임베딩은 data/preprocessed_data에 저장됨.*
 
-2. model.py:
+2. model.py
   사전학습 언어모델을 언어적 특징 함께 활용하여 fine-tuning하는 코드.
 
-3. training.ipynb:
+3. training.ipynb
   저장된 embedding을 model.py의 모델을 통해 훈련시키는 코드.
   Fine-tuning된 모델은 data/models에 저장됨.
 
-4. fakenews_embedding.ipynb:
+4. fakenews_embedding.ipynb
   Fake news 데이터의 텍스트 임베딩을 생성하고 저장하는 코드.
   텍스트 임베딩은 data/preprocessed_data에 저장됨.
 
-5. fakenews_application.ipynb:
+5. fakenews_application.ipynb
   저장된 fake news 텍스트 임베딩을 시영히야 Fine-tuning된 모델을 fake news에 적용하는 코드.
 
-6. requirements.txt:
+6. requirements.txt
    본 실험에 사용된 파이썬 및 라이브러리 버전에 대한 정보
 
 ----------
